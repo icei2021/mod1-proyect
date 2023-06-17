@@ -164,3 +164,15 @@ selector:pseudo...
 .limpiar{
     clear: both;
 }
+/*Footer*/
+
+.footer{
+    background-color: var(--color-hover);
+    padding: 15px 0;
+}
+
+.footer-text{
+    color: var(--color-claro);
+    text-align: center;
+    font-family: Arial;
+}
