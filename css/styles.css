@@ -1,0 +1,61 @@
+:root{
+    --color-primario:#007bff;
+    --color-secundario:#ff0000;
+    --color-oscuro:#000;
+    --color-claro:#fff;
+    --color-hover:#0069da;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*Header*/
+.header{
+    width: 100%;
+    height: 850px;
+    background-color: var(--color-primario);
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Navegación*/
+.nav{
+    background-color: var(--color-primario);
+    padding: 15px 70px;
+}
+.logo{
+    text-decoration: none;
+    width: 70px;
+    display: inline-block;
+    float: left;
+}
+.logo-imagen{
+    width: 100%;
+}
+.lista-navegacion{
+    float: right;
+    width: 650px;
+    margin-top: 30px;
+}
+.lista-enlace{
+    display: inline-block;
+    width: 24%;
+}
+.enlace-navegacion{
+    color: var(--color-claro);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+.enlace-navegacion:hover{
+    text-decoration: underline;
+}
+
+.limpiar{
+    clear: both;
+}
+
