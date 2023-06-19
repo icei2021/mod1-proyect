@@ -6,21 +6,29 @@
     --color-hover:#0069da;
 }
 
+/*Generales*/
 *{
     margin:0;
     padding: 0;
 }
+.contenedor{
+    width: 85%;
+    margin:0px auto;
+}
+.limpiar{
+    clear: both;
+}
+
 
 /*Header*/
 .header{
     width: 100%;
     height: 850px;
     background-color: var(--color-primario);
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/cat-dog.jpg);
     background-size: cover;
     background-position: center;
 }
-
 
 /*Navegación*/
 .nav{
@@ -70,17 +78,18 @@ main{
     padding: 20px 0;
 }
 .subtitulo{
-    color:var(--color-secundario);
+    color:var(--color-primario);
     margin-bottom:25px;
 
 }
+/*Articles*/
 .articles{
     float: left;
     width: 65%;
 }
 article{
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 #parrafo{
     color: var(--color-oscuro);
@@ -109,22 +118,12 @@ article{
     background-color: var(--color-hover);
 }
 
-/*
 
-selector:pseudo...
-*/
-
+/*Video*/
 .centrado{
     text-align: center;
     font-size: 35px;
 }
-
-.contenedor{
-    width: 85%;
-
-    margin:0px auto;
-}
-
 #video{
     width: 850px;
     display: block;
@@ -161,9 +160,6 @@ selector:pseudo...
     font-family: Arial;
 }
 
-.limpiar{
-    clear: both;
-}
 /*Footer*/
 
 .footer{
